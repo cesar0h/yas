@@ -8,5 +8,5 @@ from django.views.generic import ListView
 
 class BoardView(ListView):
     model=Post
-    template_name="board.html"
+    template_name="posts.html"
     
