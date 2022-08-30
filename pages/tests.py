@@ -40,3 +40,4 @@ class AboutpageTests(SimpleTestCase):
     def test_template_content(self):
         response=self.client.get(reverse("about"))
         self.assertContains(response,"<h1>About page</h1>")
+
